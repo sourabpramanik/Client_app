@@ -33,6 +33,7 @@ export default function Main({open}) {
 const Container = styled.div`
 height: 100%;
 width:100%;
+margin-bottom: 80px;
 `
 const Wrapper = styled.div`
 /* width:100%; */

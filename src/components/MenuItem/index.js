@@ -77,7 +77,7 @@ justify-content:center;
 
 const Container = styled.div`
 width:100%;
-height:fit-content;
+min-height: 20px;
 box-shadow: inset -2px 2px 4px rgba(220, 220, 220, 0.2), 
             inset 2px -2px 4px rgba(220, 220, 220, 0.2), 
             inset -2px -2px 4px rgba(255, 255, 255, 0.9), 
@@ -115,6 +115,7 @@ background: transparent;
 color: #4A5662;
 align-self:flex-start;
 max-width:200px;
+margin-bottom:50px ;
 `
 const SubContent = styled.div`
 background: transparent;
@@ -123,6 +124,7 @@ flex-direction:row;
 justify-content:space-between;
 position:absolute;
 bottom:10px;
+
 `
 const Price = styled.h3`
 background: transparent;
